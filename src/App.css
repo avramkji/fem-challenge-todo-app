@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: bisque;
+  height: 100vh;
+}
+
+.App img {
+  margin: auto;
+}
