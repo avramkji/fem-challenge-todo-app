@@ -2,10 +2,18 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: bisque;
+  background-color: var(--dt-very-dark-blue);
+  color: var(--dt-light-grey-blue);
   height: 100vh;
 }
 
 .App .Todo-Container {
   margin: auto;
+}
+
+.App .Todo-Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
 }
